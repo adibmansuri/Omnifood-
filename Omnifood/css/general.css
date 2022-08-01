@@ -42,7 +42,7 @@ body {
 General********* */
 .container {
   /* 1140px */
-  min-width: 120rem;
+  max-width: 120rem;
   padding: 0 3.2rem;
   margin: 0 auto;
 }
@@ -70,7 +70,9 @@ General********* */
 .grid---5---cols {
   grid-template-columns: repeat(5, 1fr);
 }
-
+.grid--center-v {
+  align-items: center;
+}
 .btn,
 .btn:link,
 .btn:visited {
@@ -80,7 +82,7 @@ General********* */
   font-size: 2rem;
   font-weight: 600;
   text-decoration: none;
-  padding: 1.6rem 3.2rem;
+  padding: 1.6rem 1.6rem;
   border-radius: 9px;
 
   border: none;
@@ -142,7 +144,7 @@ General********* */
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 2.6rem;
+  padding: 0 4.8rem;
   height: 9.6rem;
 }
 .logo {
@@ -157,7 +159,7 @@ General********* */
   list-style: none;
   display: flex;
   align-items: center;
-  gap: 3.2rem;
+  gap: 4.8rem;
 }
 .main-nav-link:link,
 .main-nav-link:visited {

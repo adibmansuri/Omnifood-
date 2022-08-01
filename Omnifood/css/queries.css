@@ -4,9 +4,89 @@
 /* ****
 below 1344px small desktop
 ****** */
-@media (max-width: 84em);
- {
+@media (max-width: 84em) {
   .hero {
     max-width: 120rem;
   }
+  .heading-primary {
+    font-size: 4.4rem;
+  }
+  .gallary {
+    grid-template-columns: 1fr 1fr;
+  }
 }
+/* ****
+below 1344px small desktop
+****** */
+@media (max-width: 75em) {
+  html {
+    font-size: 56.8%;
+  }
+  grid {
+    column-gap: 4.8rem;
+    row-gap: 80rem;
+  }
+  .heading-primary {
+    font-size: 3.6rem;
+  }
+  .heading-tertary {
+    font-size: 2.4rem;
+  }
+  .header {
+    padding: 0 3.2rem;
+  }
+  .hero {
+    gap: 4.8rem;
+  }
+  .main-nav-list {
+    gap: 3.2rem;
+  }
+  .hole-testimonial {
+    padding: 9.6rem 3.2rem;
+  }
+}
+
+/* ****
+below 944px small tab
+****** */
+@media (max-width: 59em){
+  html {
+    font-size: 50;
+  }
+  .hero{
+    grid-template-columns: 1fr ;
+    gap: 6.4rem;
+  }
+  .Hero-text-box,  .Hero-image-box{
+    text-align: center;
+  }
+  .delivered-meals{
+    justify-content: center;
+    margin-top: 3.2rem;
+
+  }
+  .hero-img {
+    width: 55%;
+
+  }
+  .logos img {
+    height: 2.4rem;
+  }
+  .step-number {
+    
+    font-size: 7.4rem;}
+
+    .meal-content {
+      padding: 2.4rem 3.2rem;
+    }
+
+  }
+
+
+/* 
+/* 
+/*  Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 */
+
+/* Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 */ */ */
