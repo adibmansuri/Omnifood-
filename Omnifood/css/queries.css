@@ -1,0 +1,12 @@
+/* reem and em do not depend hyml font size in media queries
+1ewm = 16px */
+
+/* ****
+below 1344px small desktop
+****** */
+@media (max-width: 84em);
+ {
+  .hero {
+    max-width: 120rem;
+  }
+}
