@@ -49,44 +49,56 @@ below 1344px small desktop
 /* ****
 below 944px small tab
 ****** */
-@media (max-width: 59em){
+@media (max-width: 59em) {
   html {
     font-size: 50;
   }
-  .hero{
-    grid-template-columns: 1fr ;
+  .hero {
+    grid-template-columns: 1fr;
     gap: 6.4rem;
   }
-  .Hero-text-box,  .Hero-image-box{
+  .Hero-text-box,
+  .Hero-image-box {
     text-align: center;
   }
-  .delivered-meals{
+  .delivered-meals {
     justify-content: center;
     margin-top: 3.2rem;
-
   }
   .hero-img {
     width: 55%;
-
   }
   .logos img {
     height: 2.4rem;
   }
   .step-number {
-    
-    font-size: 7.4rem;}
-
-    .meal-content {
-      padding: 2.4rem 3.2rem;
-    }
-
+    font-size: 7.4rem;
   }
 
+  .meal-content {
+    padding: 2rem 3rem;
+  }
+  .section-testimonial {
+    grid-template-columns: 1fr;
+  }
+  .gallary {
+    grid-template-columns: repeat(6, 1fr);
+  }
+  .hole-testimonial {
+    padding: 6.4rem 6.6rem;
+  }
+  .cta {
+    grid-template-columns: 3fr 2fr;
+  }
 
+  .cta-form {
+    grid-template-columns: 1fr;
+  }
+}
 /* 
 /* 
 /*  Font sizes (px)
 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 */
 
 /* Spacing system (px)
-2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 */ */ */
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 */

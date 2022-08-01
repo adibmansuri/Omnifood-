@@ -253,24 +253,7 @@
 }
 .diets {
 }
-.list {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  gap: 1.6rem;
-  padding: 0;
-}
-.list-iteam {
-  font-size: 1.8rem;
-  display: flex;
-  align-items: center;
-  gap: 1.6rem;
-}
-.list-icon {
-  height: 3rem;
-  width: 3rem;
-  color: #e67e22;
-}
+
 .all-recipes {
   text-align: center;
   font-size: 1.8rem;
@@ -505,8 +488,6 @@ cta
 
 .cta-form select {
   border: none;
-}
-.cta-form button {
 }
 
 /* *****************

@@ -208,6 +208,28 @@ strong {
 .center-text {
   text-align: center;
 }
+/* list */
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  padding: 0;
+}
+.list-iteam {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  line-height: 1.2;
+}
+.list-icon {
+  height: 3rem;
+  width: 3rem;
+  color: #e67e22;
+}
+
 *:focus {
   outline: none;
   /* outline: 4px dotted #e67e22;
