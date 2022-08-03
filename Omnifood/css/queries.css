@@ -201,6 +201,40 @@ below 544px (phones
   .logos img {
     height: 1.2rem;
   }
+  .step-image:nth-child(6){
+    grid-row: 5;
+    }
+  .step-image:nth-child(2){
+    grid-row:1;
+      }
+      .step-image{
+        transform: translateY(2.4rem);
+        }   
+  .step-number{
+    margin: 1.2rem;
+  } 
+  .section-how{
+    padding-bottom:5.6rem ;
+  }  
+  .testimonials {
+    grid-template-columns: 1fr;
+  } 
+  .gallary {
+   display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1.2rem;
+  }
+  .cta{
+  grid-template-columns:  1fr;
+
+  }
+  .cta-textbox {
+    padding: 3.2rem;
+  }
+  .cta-imgbox{
+    height: 32rem;
+    grid-row: 1;
+  }
 }
 /* 
 /* 
