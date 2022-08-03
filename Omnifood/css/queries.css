@@ -151,7 +151,15 @@ below 944px small tab
     width: 85%;
   }
   .pricing-plan {
+    width: 100%;
   }
+  .nav-col {
+    grid-row: 1;
+  }
+  /* .logo-col,
+  .Adress-col {
+    grid-column: 2;
+  } */
 }
 
 /* 
