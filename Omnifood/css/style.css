@@ -517,7 +517,7 @@ Footer ********* */
   border-top: 1px solid #eee;
 }
 .grid-footer {
-  display: grid;
+  /* display: grid; */
   grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
 }
 

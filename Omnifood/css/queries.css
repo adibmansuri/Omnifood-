@@ -153,6 +153,9 @@ below 944px small tab
   .pricing-plan {
     width: 100%;
   }
+  .grid-footer {
+    /* grid-template-columns: repeat(6, 1fr); */
+  }
   .nav-col {
     grid-row: 1;
   }
