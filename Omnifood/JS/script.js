@@ -1,7 +1,17 @@
 console.log("hello world");
+///////////////////////////////////////////////////////////
+//set current year
 const yearEl = document.querySelector(".year");
 const currentYear = new Date().getFullYear();
 yearEl.textContent = currentYear;
+
+///////////////////////////////////////////////////////////
+//male mobile navagtion work
+const btnNavel = document.querySelector(".btn-mobile-nav");
+const headerel = document.querySelector(".header");
+btnNavel.addEventListener("click", function () {
+  headerel.classList.toggle("nav-open");
+});
 
 ///////////////////////////////////////////////////////////
 // Fixing flexbox gap property missing in some Safari versions
