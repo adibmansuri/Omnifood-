@@ -71,7 +71,7 @@ html {
   font-size: 62.5%;
   overflow-x: hidden;
   /* dose not work on some browser */
-  scroll-behavior: smooth;
+  /* scroll-behavior: smooth; */
 }
 
 body {
