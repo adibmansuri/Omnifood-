@@ -157,9 +157,6 @@
 /* FEATURED IN SECTION */
 /**************************/
 
-.section-featured {
-}
-
 .heading-featured-in {
   font-size: 1.4rem;
   text-transform: uppercase;
@@ -237,7 +234,6 @@
 
 .step-img {
   width: 35%;
-  /* z-index: 10; */
 }
 
 /**************************/
